@@ -88,7 +88,7 @@
 }
 
 .ex-11-icon:hover {
-    animation: rot300 linear 2s 0s;
+    animation: rot300 linear 2s;
 }
 
 @keyframes rot300 {
@@ -97,5 +97,31 @@
     }
     100% {
     transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: borderx1 linear 2s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: borderx2 linear 2s;
+}
+
+@keyframes borderx1 {
+    50% {
+    left: 65%;
+    }
+    100% {
+    left: 10%;
+    }
+}
+
+@keyframes borderx2 {
+    50% {
+    right: 65%;
+    }
+    100% {
+    right: 20%;
     }
 }
