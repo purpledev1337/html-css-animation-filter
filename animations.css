@@ -45,3 +45,34 @@
     height: 30px;
     margin: 35px;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(1) grayscale(0.5);
+}
+
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(0.5) grayscale(0.5);
+    border-radius: 20px;
+}
+
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.5) grayscale(0.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
