@@ -119,7 +119,7 @@
 
 @keyframes border12x2 {
     50% {
-    right: 70%;
+    right: 69%;
     }
     100% {
     right: 20%;
@@ -144,22 +144,22 @@
     top: 90%;
     }
     75% {
-    left: -20%;
+    left: -10%;
     top: 90%;
     }
     90% {
-    left: -20%;
+    left: -10%;
     top: -10px;
     }
 }
 
 @keyframes border13x2 {
     30% {
-    right: 90%;
+    right: 80%;
     bottom: -10px
     }
     45% {
-    right: 90%;
+    right: 80%;
     bottom: 90%;
     }
     75% {
